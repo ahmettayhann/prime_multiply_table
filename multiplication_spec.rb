@@ -7,7 +7,7 @@ class Multiplier
     number = 10 unless number.present?
     prime_list = prime_numbers(number)
     table = ''
-    prime_list.unshift(0).each_with_index do |n, i| # unshift 0 is only becasue of the table's first element 
+    prime_list.unshift(0).each_with_index do |n, i| # unshift 0 is only becasue of the table's first element
       prime_list.each_with_index do |m, x|
         table = if i.zero?
                   x.zero? ? 'X' : m.to_s
@@ -15,7 +15,7 @@ class Multiplier
                   x.zero? ? n.to_s : (m * n).to_s
                 end
         print table.ljust(5, ' ')
-        prime_list.drop(1) #after table created first element(0) of list removed
+        prime_list.drop(1) # after table created first element(0) of list removed
       end
       puts
       puts
