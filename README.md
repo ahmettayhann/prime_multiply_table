@@ -1,4 +1,7 @@
 # prime_multiply_table
+
+This project is for multiplication of N prime numbers and creating a table with this multiplicaion results
+
 Multiplier.rb file is for just algorithm to create multiplicaiton table of prime numbers
 After downloaded the project with this "ruby multiplier.rb" command you can run it and see the result of algorithm
 
